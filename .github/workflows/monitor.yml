@@ -1,0 +1,52 @@
+name: monitor
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # every 10 minutes (best effort on shared runners)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Run checks
+        run: pnpm monitor
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+
+      # Commit state/incidents/badge/README even when the check step failed
+      # (a failed run still produced meaningful state to persist).
+      - name: Commit updated status
+        if: always()
+        run: |
+          git config user.name "opale-monitoring[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add status README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(status): update monitoring state"
+            git pull --rebase origin main
+            git push origin main
+          fi

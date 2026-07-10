@@ -1,0 +1,41 @@
+# Configuration du monitoring — une entrée par client.
+#
+# Champs par site :
+#   name                  nom lisible (emails + README)
+#   domain                domaine nu, sans https://
+#   alert_email           destinataire des alertes pour ce client
+#   expect                chaîne témoin qui doit être présente dans le HTML de chaque page
+#                         (détecte les pages d'erreur qui renvoient quand même un 200)
+#   pages                 chemins à surveiller ; une page peut aussi être un objet
+#                         { path: /foo, expect: "chaîne dédiée" }
+#   max_response_time_ms  (optionnel) surcharge du seuil de lenteur pour ce site
+
+defaults:
+  max_response_time_ms: 8000   # au-delà => échec « lenteur »
+  ssl_warn_days: 21            # alerte si le certificat expire dans moins de N jours
+
+sites:
+  - name: Agence des Dunes
+    domain: agencedesdunes.com
+    alert_email: hugodewas@gmail.com
+    expect: "Agence des Dunes"
+    pages:
+      - /
+      - /contact
+      - /estimation
+
+  - name: Opale Acquisition
+    domain: opaleacquisition.fr
+    alert_email: hugodewas@gmail.com
+    expect: "Opale Acquisition"
+    pages:
+      - /
+      - /creation-site-web
+
+  - name: Chanvre Vert
+    domain: chanvre-vert.fr
+    alert_email: hugodewas@gmail.com
+    expect: "Chanvre Vert"
+    pages:
+      - /
+      - /produits
