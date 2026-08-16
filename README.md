@@ -12,11 +12,11 @@ de rétablissement.
 <!-- STATUS:START -->
 | Site | Statut | Réponse (moy.) | SSL restant | Pages surveillées |
 |---|---|---|---|---|
-| [Agence des Dunes](https://agencedesdunes.com) | 🟢 UP | 947 ms | 45 j | 3 |
-| [Opale Acquisition](https://opaleacquisition.fr) | 🟢 UP | 385 ms | 27 j | 2 |
-| [Chanvre Vert](https://chanvre-vert.fr) | 🟢 UP | 935 ms | 84 j | 2 |
+| [Agence des Dunes](https://agencedesdunes.com) | 🟢 UP | 1116 ms | 45 j | 3 |
+| [Opale Acquisition](https://opaleacquisition.fr) | 🟢 UP | 337 ms | 89 j | 2 |
+| [Chanvre Vert](https://chanvre-vert.fr) | 🟢 UP | 957 ms | 84 j | 2 |
 
-_Dernière mise à jour : 16/08/2026 19:40 (Europe/Paris) — mis à jour uniquement quand l'état change._
+_Dernière mise à jour : 16/08/2026 20:17 (Europe/Paris) — mis à jour uniquement quand l'état change._
 <!-- STATUS:END -->
 
 Historique complet des incidents : [`status/incidents.json`](status/incidents.json)
