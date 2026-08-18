@@ -6,8 +6,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 44,
-    "lastCheck": "2026-08-18T03:55:06.397Z",
-    "lastResponseMs": 761,
+    "lastCheck": "2026-08-18T04:14:12.135Z",
+    "lastResponseMs": 925,
     "lastReasons": []
   },
   "opaleacquisition.fr": {
@@ -16,9 +16,9 @@
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
-    "sslDaysLeft": 26,
-    "lastCheck": "2026-08-18T03:55:06.397Z",
-    "lastResponseMs": 326,
+    "sslDaysLeft": 88,
+    "lastCheck": "2026-08-18T04:14:12.135Z",
+    "lastResponseMs": 372,
     "lastReasons": []
   },
   "chanvre-vert.fr": {
@@ -28,8 +28,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 83,
-    "lastCheck": "2026-08-18T03:55:06.397Z",
-    "lastResponseMs": 1018,
+    "lastCheck": "2026-08-18T04:14:12.135Z",
+    "lastResponseMs": 994,
     "lastReasons": []
   }
 }
