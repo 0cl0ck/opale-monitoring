@@ -13,10 +13,10 @@ de rétablissement.
 | Site | Statut | Réponse (moy.) | SSL restant | Pages surveillées |
 |---|---|---|---|---|
 | [Agence des Dunes](https://agencedesdunes.com) | 🔴 DOWN | 40 ms | — | 3 |
-| [Opale Acquisition](https://opaleacquisition.fr) | 🟢 UP | 326 ms | 77 j | 2 |
-| [Chanvre Vert](https://chanvre-vert.fr) | 🟢 UP | 778 ms | 72 j | 2 |
+| [Opale Acquisition](https://opaleacquisition.fr) | 🟢 UP | 521 ms | 77 j | 2 |
+| [Chanvre Vert](https://chanvre-vert.fr) | 🟢 UP | 972 ms | 72 j | 2 |
 
-_Dernière mise à jour : 29/08/2026 01:33 (Europe/Paris) — mis à jour uniquement quand l'état change._
+_Dernière mise à jour : 29/08/2026 01:42 (Europe/Paris) — mis à jour uniquement quand l'état change._
 <!-- STATUS:END -->
 
 Historique complet des incidents : [`status/incidents.json`](status/incidents.json)
