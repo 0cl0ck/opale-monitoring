@@ -1,14 +1,18 @@
 {
   "agencedesdunes.com": {
     "status": "up",
-    "consecutiveFails": 0,
+    "consecutiveFails": 1,
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
-    "sslDaysLeft": 34,
-    "lastCheck": "2026-08-27T16:51:04.625Z",
-    "lastResponseMs": 1223,
-    "lastReasons": []
+    "sslDaysLeft": null,
+    "lastCheck": "2026-08-28T20:23:43.551Z",
+    "lastResponseMs": 84,
+    "lastReasons": [
+      "GET / : injoignable (fetch failed)",
+      "GET /contact : injoignable (fetch failed)",
+      "GET /estimation : injoignable (fetch failed)"
+    ]
   },
   "opaleacquisition.fr": {
     "status": "up",
@@ -16,9 +20,9 @@
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
-    "sslDaysLeft": 78,
-    "lastCheck": "2026-08-27T16:51:04.625Z",
-    "lastResponseMs": 395,
+    "sslDaysLeft": 77,
+    "lastCheck": "2026-08-28T20:23:43.551Z",
+    "lastResponseMs": 483,
     "lastReasons": []
   },
   "chanvre-vert.fr": {
@@ -27,9 +31,9 @@
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
-    "sslDaysLeft": 73,
-    "lastCheck": "2026-08-27T16:51:04.625Z",
-    "lastResponseMs": 707,
+    "sslDaysLeft": 72,
+    "lastCheck": "2026-08-28T20:23:43.551Z",
+    "lastResponseMs": 931,
     "lastReasons": []
   }
 }
