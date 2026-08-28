@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "site": "agencedesdunes.com",
+    "type": "outage",
+    "started": "2026-08-28T22:02:53.848Z",
+    "ended": null,
+    "durationMin": null,
+    "reasons": [
+      "GET / : injoignable (fetch failed)",
+      "GET /contact : injoignable (fetch failed)",
+      "GET /estimation : injoignable (fetch failed)"
+    ]
+  }
+]
