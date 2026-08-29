@@ -1,13 +1,13 @@
 {
   "agencedesdunes.com": {
     "status": "down",
-    "consecutiveFails": 73,
+    "consecutiveFails": 74,
     "alerted": false,
     "downSince": "2026-08-28T22:02:53.848Z",
     "sslWarned": false,
     "sslDaysLeft": null,
-    "lastCheck": "2026-08-29T13:18:15.858Z",
-    "lastResponseMs": 38,
+    "lastCheck": "2026-08-29T13:26:02.647Z",
+    "lastResponseMs": 24,
     "lastReasons": [
       "GET / : injoignable (fetch failed)",
       "GET /contact : injoignable (fetch failed)",
@@ -21,7 +21,7 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 76,
-    "lastCheck": "2026-08-29T13:18:15.858Z",
+    "lastCheck": "2026-08-29T13:26:02.647Z",
     "lastResponseMs": 420,
     "lastReasons": []
   },
@@ -32,8 +32,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 71,
-    "lastCheck": "2026-08-29T13:18:15.858Z",
-    "lastResponseMs": 996,
+    "lastCheck": "2026-08-29T13:26:02.647Z",
+    "lastResponseMs": 775,
     "lastReasons": []
   }
 }
