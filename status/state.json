@@ -1,13 +1,13 @@
 {
   "agencedesdunes.com": {
     "status": "down",
-    "consecutiveFails": 152,
+    "consecutiveFails": 153,
     "alerted": false,
     "downSince": "2026-08-28T22:02:53.848Z",
     "sslWarned": false,
     "sslDaysLeft": null,
-    "lastCheck": "2026-08-30T04:53:11.359Z",
-    "lastResponseMs": 46,
+    "lastCheck": "2026-08-30T05:08:16.470Z",
+    "lastResponseMs": 129,
     "lastReasons": [
       "GET / : injoignable (fetch failed)",
       "GET /contact : injoignable (fetch failed)",
@@ -21,8 +21,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 76,
-    "lastCheck": "2026-08-30T04:53:11.359Z",
-    "lastResponseMs": 356,
+    "lastCheck": "2026-08-30T05:08:16.470Z",
+    "lastResponseMs": 501,
     "lastReasons": []
   },
   "chanvre-vert.fr": {
@@ -32,8 +32,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 71,
-    "lastCheck": "2026-08-30T04:53:11.359Z",
-    "lastResponseMs": 763,
+    "lastCheck": "2026-08-30T05:08:16.470Z",
+    "lastResponseMs": 820,
     "lastReasons": []
   }
 }
