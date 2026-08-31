@@ -3,8 +3,8 @@
     "site": "agencedesdunes.com",
     "type": "outage",
     "started": "2026-08-28T22:02:53.848Z",
-    "ended": null,
-    "durationMin": null,
+    "ended": "2026-08-31T07:38:21.965Z",
+    "durationMin": 3455,
     "reasons": [
       "GET / : injoignable (fetch failed)",
       "GET /contact : injoignable (fetch failed)",
