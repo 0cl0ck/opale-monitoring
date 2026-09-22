@@ -1,45 +1,35 @@
 {
   "agencedesdunes.com": {
     "status": "up",
-    "consecutiveFails": 1,
+    "consecutiveFails": 0,
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 71,
-    "lastCheck": "2026-09-22T21:29:09.854Z",
-    "lastResponseMs": 143,
-    "lastReasons": [
-      "GET / : HTTP 403",
-      "GET /contact : HTTP 403",
-      "GET /estimation : HTTP 403"
-    ]
+    "lastCheck": "2026-09-22T21:39:33.559Z",
+    "lastResponseMs": 1366,
+    "lastReasons": []
   },
   "opaleacquisition.fr": {
     "status": "up",
-    "consecutiveFails": 1,
+    "consecutiveFails": 0,
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 52,
-    "lastCheck": "2026-09-22T21:29:09.854Z",
-    "lastResponseMs": 318,
-    "lastReasons": [
-      "GET / : HTTP 403",
-      "GET /creation-site-web : HTTP 403"
-    ]
+    "lastCheck": "2026-09-22T21:39:33.559Z",
+    "lastResponseMs": 592,
+    "lastReasons": []
   },
   "chanvre-vert.fr": {
     "status": "up",
-    "consecutiveFails": 1,
+    "consecutiveFails": 0,
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 47,
-    "lastCheck": "2026-09-22T21:29:09.854Z",
-    "lastResponseMs": 74,
-    "lastReasons": [
-      "GET / : HTTP 403",
-      "GET /produits : HTTP 403"
-    ]
+    "lastCheck": "2026-09-22T21:39:33.559Z",
+    "lastResponseMs": 1197,
+    "lastReasons": []
   }
 }
