@@ -6,8 +6,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 46,
-    "lastCheck": "2026-10-18T04:42:30.100Z",
-    "lastResponseMs": 1710,
+    "lastCheck": "2026-10-18T05:45:03.821Z",
+    "lastResponseMs": 1121,
     "lastReasons": []
   },
   "opaleacquisition.fr": {
@@ -16,8 +16,8 @@
     "alerted": false,
     "downSince": null,
     "sslWarned": false,
-    "sslDaysLeft": 88,
-    "lastCheck": "2026-10-18T04:42:30.100Z",
+    "sslDaysLeft": 27,
+    "lastCheck": "2026-10-18T05:45:03.821Z",
     "lastResponseMs": 475,
     "lastReasons": []
   },
@@ -28,8 +28,8 @@
     "downSince": null,
     "sslWarned": false,
     "sslDaysLeft": 83,
-    "lastCheck": "2026-10-18T04:42:30.100Z",
-    "lastResponseMs": 945,
+    "lastCheck": "2026-10-18T05:45:03.821Z",
+    "lastResponseMs": 1190,
     "lastReasons": []
   }
 }
