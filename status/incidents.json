@@ -1,5 +1,15 @@
 [
   {
+    "site": "chanvre-vert.fr",
+    "type": "outage",
+    "started": "2026-11-09T15:52:19.040Z",
+    "ended": null,
+    "durationMin": null,
+    "reasons": [
+      "GET /produits : HTTP 500"
+    ]
+  },
+  {
     "site": "agencedesdunes.com",
     "type": "outage",
     "started": "2026-08-28T22:02:53.848Z",
