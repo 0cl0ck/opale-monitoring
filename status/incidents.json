@@ -3,8 +3,8 @@
     "site": "chanvre-vert.fr",
     "type": "outage",
     "started": "2026-11-09T15:52:19.040Z",
-    "ended": null,
-    "durationMin": null,
+    "ended": "2026-11-09T16:06:11.709Z",
+    "durationMin": 14,
     "reasons": [
       "GET /produits : HTTP 500"
     ]
