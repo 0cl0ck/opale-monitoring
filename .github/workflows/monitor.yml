@@ -1,8 +1,8 @@
 name: monitor
 
+# Cron disabled: the periodic page fetches could wake the clients' Neon databases
+# Uptime is moving elsewhere; the workflow stays runnable by hand.
 on:
-  schedule:
-    - cron: "*/10 * * * *" # every 10 minutes (best effort on shared runners)
   workflow_dispatch:
 
 permissions:

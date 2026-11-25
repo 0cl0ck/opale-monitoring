@@ -31,8 +31,8 @@ Historique complet des incidents : [`status/incidents.json`](status/incidents.js
      expect: "Nouveau Client"   # chaîne présente dans le HTML de chaque page
      pages: [/, /contact]
    ```
-2. Commit + push. C'est tout : le prochain run (≤ 10 min) le surveille.
-3. Vérifier au run suivant que le tableau ci-dessus affiche 🟢 pour le nouveau site.
+2. Commit + push, puis lancer un run manuel (voir plus bas).
+3. Vérifier que le tableau ci-dessus affiche 🟢 pour le nouveau site.
 
 ## Alertes email — configuration (une seule fois)
 
@@ -51,11 +51,10 @@ dû partir — GitHub vous notifie alors de l'échec du workflow.
 
 ## Fonctionnement
 
-- Cron toutes les 10 min ([`monitor.yml`](.github/workflows/monitor.yml)), délai best effort côté GitHub.
+- ⏸️ **Cron désactivé** : les requêtes toutes les 10 min réveillaient potentiellement les bases Neon des sites.
+  [`monitor.yml`](.github/workflows/monitor.yml) ne tourne plus qu'à la main (*Run workflow*).
 - Alerte après **2 échecs consécutifs** (anti-flapping), rétablissement notifié par email.
 - SSL : alerte si le certificat expire dans **moins de 21 jours** (`ssl_warn_days`).
 - `status/state.json`, `status/incidents.json`, le badge et le tableau ne sont commités
   **que lorsqu'un état change** (pas de bruit dans l'historique git).
-- ⚠️ GitHub coupe les crons après ~60 jours sans activité humaine sur le repo : n'importe
-  quel commit (ou le bouton *Enable workflow*) les réactive.
 - Run manuel : onglet **Actions → monitor → Run workflow**. En local : `pnpm install && pnpm monitor`.
