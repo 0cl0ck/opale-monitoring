@@ -1,6 +1,6 @@
 name: monitor
 
-# Cron disabled: the periodic page fetches could wake the clients' Neon databases
+# Cron disabled: the periodic page fetches could wake the clients' Neon databases.
 # Uptime is moving elsewhere; the workflow stays runnable by hand.
 on:
   workflow_dispatch:
